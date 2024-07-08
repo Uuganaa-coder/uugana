@@ -1,5 +1,8 @@
 p {
-    background-color: azure;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1{
     text-align: center;
 }
 h2 {
@@ -17,12 +20,6 @@ a{
     text-decoration: none;
     text-size-adjust: 10px;
 }
-   
-div{
-    text-align: space-around;
-}
-
-
 main{
     margin-top: 8%;
 }
@@ -38,11 +35,10 @@ header a {
     height: 8%;
     width: 100%;
     align-items: center;
-    top: 0;
+    top: 0; 
     position: fixed;
     display: flex;
     justify-content: space-around;
-    
 }
 img {
     justify-content:flex-start;
@@ -54,8 +50,15 @@ img {
 .container {
     background-color: black;
     display: flex;
-
 }
 .box{
-    position: relative;
+   display: flex;
+}
+.sneakers{
+    display: flex;
+    justify-content: space-around;
+}
+h4{
+    display: flex;
+    justify-content: space-around;
 }
