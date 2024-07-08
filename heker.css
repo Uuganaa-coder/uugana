@@ -15,7 +15,7 @@ a{
     margin: 30px;
     justify-content: center;
     text-decoration: none;
- 
+    text-size-adjust: 10px;
 }
    
 div{
@@ -50,4 +50,12 @@ img {
 }
 img {
     color: white;
+}
+.container {
+    background-color: black;
+    display: flex;
+
+}
+.box{
+    position: relative;
 }
