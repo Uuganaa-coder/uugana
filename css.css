@@ -1,0 +1,14 @@
+.pfp{
+    height: 40px;
+    border-radius: 30px;
+}
+.channel{
+    justify-content: space-between;
+}
+.thumbnail{
+    border-radius: 10px;
+}
+.video{
+    width: 735px;
+    height: 490px;
+}
