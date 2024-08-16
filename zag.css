@@ -1,0 +1,31 @@
+body{
+    .varela-round-regular {
+        font-family: "Varela Round", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+.sidebar-left {
+    width: 83vw;
+    height: 45vh;
+    background-color: blueviolet;
+}
+.sidebar-right {
+    width: 17vw;
+    height: 100vh;
+    background-color: rgb(255, 0, 0);
+    border: 10px;
+    border-color: red;
+}
+.main-content {
+    width: 83vw;
+height: 55vh;
+    background-color: aqua;
+}
+.everything{
+ display: flex;
+}
+.pics{
+    display: flex;
+    align-items: center;
+}

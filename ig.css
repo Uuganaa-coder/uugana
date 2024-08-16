@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+}
+.container {
+    width: 100%;
+    display: flex;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-bottom: 1px solid #dbdbdb;
+}
+.profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+    border: 2px solid #dbdbdb;
+}
+.profile-info {
+    flex-grow: 1;
+}
+.profile-info h1 {
+    margin: 0;
+    font-size: 24px;
+}
+.profile-info .stats {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #8e8e8e;
+}
+.profile-info .bio {
+    margin: 5px 0;
+}
+.profile-info button {
+    padding: 5px 15px;
+    font-size: 14px;
+    border: 1px solid #dbdbdb;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 32%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.sidebar-right {
+    width: 17vw;
+    height: 100vh;
+    border: 10px;
+    margin-right: 150px;
+}
+.niga{
+width: 17vw;
+}
+.icon{
+    height: 40px;
+    border-radius: 30px;
+  }
+  .iconZ{
+    display: flex;
+    align-items: center;
+    width: 150px;
+  }
+  .yfb{
+    display: flex;
+  }
